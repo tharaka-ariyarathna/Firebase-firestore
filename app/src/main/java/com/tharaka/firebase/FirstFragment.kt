@@ -32,18 +32,17 @@ class FirstFragment : Fragment() {
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
         binding.button.setOnClickListener{
             val firstName = binding.firstName.text.toString() ;
             val lastName = binding.lastName.text.toString()
             val user = mapOf("first" to firstName, "last" to lastName)
             db.collection("users").add(user);
         }
-
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
     }
 
     override fun onDestroyView() {
