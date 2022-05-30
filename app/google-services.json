@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1026585253160",
+    "project_id": "test-11aa9",
+    "storage_bucket": "test-11aa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026585253160:android:7ae1c378499995e2cbec1d",
+        "android_client_info": {
+          "package_name": "com.tharaka.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026585253160-q48j8f6pbd4f4bk9m09dkk34keouhchu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQii8x_waoAwwM1D_9Rp4zmbjuASJCTFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026585253160-q48j8f6pbd4f4bk9m09dkk34keouhchu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026585253160:android:efb5aae3b315b4c6cbec1d",
+        "android_client_info": {
+          "package_name": "com.tharaka.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026585253160-q48j8f6pbd4f4bk9m09dkk34keouhchu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQii8x_waoAwwM1D_9Rp4zmbjuASJCTFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026585253160-q48j8f6pbd4f4bk9m09dkk34keouhchu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
